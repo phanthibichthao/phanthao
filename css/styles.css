@@ -468,3 +468,193 @@ p {
         text-align: center;
     }
 }
+@media only screen and (max-width: 768px) {
+    .text {
+        position: absolute;
+        bottom: 2em;
+        left: 15em;
+        color: #fff;
+        text-align: center;
+    }
+    .li_number{
+        display: flex;
+    }
+    .li_number>span {
+        background-color: #000;
+        color: #fff;
+        border-radius: 50%;
+        padding: 1px 15px;
+        margin-left: 590px;
+    }
+    .daihon {
+        margin-top: 10px;
+        width: 100%;
+    }
+    .chia2nua {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        margin-top: 40px;
+        line-height: 1.5;
+        padding: 0 20px;
+    }
+    .btn_send{
+        right: 0px;
+    }
+}
+@media only screen and (max-width: 412px) {
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-size: 14px;
+        font-family: sans-serif;
+    }
+    .container {
+        width: 414px;
+        height: auto;
+        margin-top: 35px;
+    }
+    .text>h3 {
+        font: 20px "Segoe UI", Arial, sans-serif;
+        margin-bottom: 20px;
+    }
+    .text>p>b {
+        font: 12px Lato, sans-serif;
+        font-weight: bold;
+    }
+    .text>p>b {
+        font: 12px Lato, sans-serif;
+        font-weight: bold;
+    }    
+    .li_number>span {
+        background-color: #000;
+        color: #fff;
+        border-radius: 50%;
+        padding: 1px 12px;
+        margin-left: 245px;
+    }
+    .text_we_have {
+        margin-top: 13px;
+        text-align: justify;
+        font-size: 13px;
+        font-family: "Lato", sans-serif;
+    }
+    .text_tour_dates {
+        margin-top: 90px;
+        padding-top: 80px;
+        font-family: "Segoe UI", Arial, sans-serif;
+        font-size: 27px;
+        font-weight: 400;
+        letter-spacing: 4px;
+    }
+    .top {
+        position: fixed;
+        left: 0px;
+        top: 0px;
+        z-index: 1000;
+        width: 414px;
+    }
+    .link_menu {
+        text-decoration: none;
+        color: white;
+        font: 15px Lato, sans-serif;
+        font-size: 10px;
+    }
+    .height_2pt {
+        height: 35px;
+    }
+    .dropdown {
+        display: flex;
+        flex-direction: row;
+        position: relative;
+        text-decoration: none;
+        color: white;
+        font: 15px Lato, sans-serif;
+        font-size: 10px;
+        top: 3px;
+    }
+    .arrow-down {
+        position: absolute;
+        width: 0;
+        height: 0;
+        border-left: 5px solid transparent;
+        border-right: 5px solid transparent;
+        border-top: 5px solid #fff;
+        right: -27px;
+        bottom: 5px;
+        margin-right: 15px;
+    }
+    .phantu1 .menu {
+        color: white;
+        list-style: none;
+        padding: 7px 14px;
+        height: 100%;
+        cursor: pointer;
+    }
+    .boc_input_ngan {
+        display: block;
+    }
+    .nua {
+        width: 50%;
+        font-family: "Lato", sans-serif;
+        font-size: 14px;
+    }
+    .iput {
+        padding: 4px;
+        border: 0.8px solid #ccc;
+        font-size: 15px;
+        font-family: "Lato", sans-serif;
+        width: 186px;
+    }
+    .btn_send {
+        position: absolute;
+        bottom: -45px;
+        right: 22px;
+        padding: 6px 13px;
+        background-color: #000;
+        color: #fff;
+        border: none;
+        font-family: "Lato", sans-serif;
+        font-size: 15px;
+    }
+    .li_number>span {
+        background-color: #000;
+        color: #fff;
+        border-radius: 50%;
+        padding: 1px 12px;
+        margin-left: 245px;
+    }
+    .btn_buy_margin{
+        margin-top: 50px;
+    }
+    .text {
+        position: absolute;
+        bottom: 2em;
+        left: 8em;
+        color: #fff;
+        text-align: center;
+    }
+    .text>h3 {
+        font: 17px "Segoe UI", Arial, sans-serif;
+        margin-bottom: 8px;
+    }
+    .text>p>b {
+        font: 10px Lato, sans-serif;
+        font-weight: bold;
+    }
+    .text_the_band {
+        margin-top: 60px;
+        font-family: "Segoe UI", Arial, sans-serif;
+        font-size: 25px;
+        font-weight: 400;
+        letter-spacing: 4px;
+    }
+    .search {
+        position: absolute;
+        color: white;
+        top: 0px;
+        right: 0px;
+        padding: 9px 15px;
+    }
+}
