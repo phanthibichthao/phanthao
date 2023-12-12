@@ -142,3 +142,329 @@
 .search:hover {
     background-color: red;
 }
+
+.container {
+    width: 100%;
+    height: auto;
+    margin-top: 47px;
+}
+
+.slideShow {
+    width: 100%;
+    height: auto;
+    position: relative;
+}
+
+.slideShow>img {
+    width: 100%;
+    height: 100%;
+}
+
+.text {
+    position: absolute;
+    bottom: 60px;
+    left: 600px;
+    color: #fff;
+    text-align: center;
+}
+
+.text>h3 {
+    font: 24px "Segoe UI", Arial, sans-serif;
+    margin-bottom: 20px;
+}
+
+.text>p>b {
+    font: 15px Lato, sans-serif;
+    font-weight: bold;
+}
+
+.content_text {
+    max-width: 800px;
+    text-align: center;
+    margin: auto;
+    line-height: 1.5;
+    padding: 15px;
+}
+
+.text_the_band {
+    margin-top: 60px;
+    font-family: "Segoe UI", Arial, sans-serif;
+    font-size: 30px;
+    font-weight: 400;
+    letter-spacing: 4px;
+}
+
+.text_we_love_music {
+    margin-top: 13px;
+}
+
+.text_we_love_music>i {
+    font-family: "Lato", sans-serif;
+    color: #848484;
+}
+
+.text_we_have {
+    margin-top: 13px;
+    text-align: justify;
+    font-size: 15px;
+    font-family: "Lato", sans-serif;
+}
+
+.text_img {
+    display: flex;
+    flex-direction: row;
+    margin-top: 60px;
+}
+
+.content_image {
+    float: left;
+}
+
+.content_image>img {
+    margin-top: 15px;
+}
+
+.round_content_2 {
+    color: #fff !important;
+    background-color: #000 !important;
+}
+
+.content_2 {
+    height: 845px;
+    margin: auto;
+    max-width: 800px;
+    padding: 0 20px;
+}
+
+.content_2>h2,
+p {
+    text-align: center;
+}
+
+.text_tour_dates {
+    margin-top: 90px;
+    padding-top: 80px;
+    font-family: "Segoe UI", Arial, sans-serif;
+    font-size: 30px;
+    font-weight: 400;
+    letter-spacing: 4px;
+}
+
+.text_i {
+    margin-top: 20px;
+}
+
+.text_i>i {
+    font-family: "Lato", sans-serif;
+    color: #848484;
+    font-weight: bold;
+}
+
+.list_month {
+    margin-top: 40px;
+    background-color: #fff;
+    color: #848484;
+    line-height: 2.5;
+    padding-left: 20px;
+    font-family: "Lato", sans-serif;
+    list-style: none;
+}
+
+.li_span {
+    border-bottom: 0.1px solid #757575;
+}
+
+.li_span>span {
+    color: #fff;
+    background-color: #f44336;
+    padding: 2px 5px;
+    margin-left: 10px;
+}
+
+.li_number>span {
+    background-color: #000;
+    color: #fff;
+    border-radius: 50%;
+    padding: 1px 7px;
+    margin-left: 620px;
+}
+
+.boc_3content {
+    margin: 35px -8px 0 -8px;
+}
+
+.content {
+    width: 33.33333%;
+    padding: 0 8px;
+    display: flex;
+    flex-direction: column;
+    font-family: "Lato", sans-serif;
+    float: left;
+}
+
+.content>img {
+    width: 100%;
+}
+
+.text_info {
+    padding: 5px 16px;
+    background-color: #fff;
+    color: #000;
+    line-height: 2.5;
+    display: flex;
+    flex-direction: column;
+    align-items: last baseline;
+}
+
+.text_fri {
+    color: #848484;
+}
+
+.text_pra {
+    margin-top: 10px;
+    line-height: 1.2;
+    text-align: justify;
+}
+
+.btn_buy {
+    background-color: #000;
+    color: #fff;
+    padding: 9px 14px;
+    margin: 16px 16px;
+    border: none;
+    font-family: "Lato", sans-serif;
+    font-size: 15px;
+}
+
+.btn_buy:hover {
+    background-color: #dcd9d9;
+    color: #000;
+}
+
+.content>img:hover {
+    filter: brightness(60%);
+}
+
+.content_4 {
+    max-width: 800px;
+    margin: auto;
+    padding-top: 90px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.content_4>h2 {
+    font-family: "Segoe UI", Arial, sans-serif;
+    font-size: 30px;
+    font-weight: 400;
+    letter-spacing: 4px;
+}
+
+.content_4>p {
+    margin-top: 20px;
+}
+
+.text_fan {
+    font-family: "Lato", sans-serif;
+    color: #848484;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.chia2nua {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    margin-top: 40px;
+    line-height: 1.5;
+}
+
+.nua {
+    width: 50%;
+    font-family: "Lato", sans-serif;
+    font-size: 18px;
+}
+
+.nua>img {
+    width: 15px;
+    height: 15px;
+    margin-right: 10px;
+}
+
+.form_btn {
+    position: relative;
+}
+
+.boc_input_ngan {
+    display: flex;
+    justify-content: space-between;
+}
+
+.iput {
+    padding: 9px;
+    border: 0.8px solid #ccc;
+    font-size: 15px;
+    font-family: "Lato", sans-serif;
+}
+
+.ngan_hon {
+    margin-right: 22px;
+}
+
+.daihon {
+    margin-top: 10px;
+    width: 94.5%;
+}
+
+.btn_send {
+    position: absolute;
+    bottom: -45px;
+    right: 22px;
+    padding: 8px 16px;
+    background-color: #000;
+    color: #fff;
+    border: none;
+    font-family: "Lato", sans-serif;
+    font-size: 15px;
+}
+
+.btn_send:hover {
+    color: #000;
+    background-color: #ccc;
+}
+
+.banner_end {
+    margin-top: 160px;
+}
+
+.footer {
+    margin: 77.5px 0;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.img_icon {
+    margin: auto;
+}
+
+.img_icon>i:hover {
+    filter: brightness(150%);
+}
+
+.footer>p {
+    margin-top: 20px;
+    color: #848484;
+    font-family: "Lato", sans-serif;
+}
+
+@media only screen and (max-width:1400px) {
+    .text {
+        position: absolute;
+        bottom: 2em;
+        left: 33em;
+        color: #fff;
+        text-align: center;
+    }
+}
