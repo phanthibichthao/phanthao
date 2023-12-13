@@ -132,3 +132,17 @@ footer p {
         font-size: 16px;
     }
 }
+/* CSS CHO BẢN IN */
+@media print {
+    body {
+        font-size: 12pt; /* Thiết lập cỡ chữ lớn hơn cho bản in */
+    }
+
+    header, footer {
+        display: none; /* Ẩn header và footer khi in */
+    }
+
+    main {
+        width: 100%; /* Đảm bảo rằng nội dung chiếm đầy đủ chiều rộng trang in */
+    }
+}
